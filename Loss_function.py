@@ -32,3 +32,4 @@ hinge_loss = tf.maximum(0.,1.-(x_guess2*x_actual2))
     plt.legend()
     plt.show()
 
+
