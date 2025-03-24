@@ -18,7 +18,6 @@ with tf.Session() as sess:
     plt.plot(x_,l2_,label='l2_loss')
     plt.legend()
     plt.show()
-
 # Huber loss
 x_guess2 = tf.linspace(-3.,5.,500)
 x_actual2 = tf.convert_to_tensor([1.]*500)
